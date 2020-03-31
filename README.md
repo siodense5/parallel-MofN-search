@@ -12,3 +12,5 @@ If you wish to only extract rules for a selection of hidden units change start_r
 FORMATTING OF INPUT: To run the algorithm on layer L of a network it must be provided with 1)The layer weights, 2)activations of layer L-1 on some set of test examples, 3)the corresponding activations of layer L, 4)The activations of the output layer on the test set
 
 Each of these must be in the form of a 2-dimensional array stored in a csv file. For convonlutional data, use the methods in subsample_ flatten to convert weights and activations into 2-dimensional arrays. The output layer given to the algorithm should either be activation values or logits rather than output labels. The activation values are used to convert the output layer to either integer labels or a one-hot encoding
+
+Originally implemented using ibm cloud services with Watson studio. If you have difficulty getting it to run on your cloud platform, have any questions, or see areas with possible improvements please contact me at simon.odense@city.ac.uk
